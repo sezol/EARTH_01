@@ -166,8 +166,7 @@ venv.bak/
 # Rope project settings
 .ropeproject
 
-# mkdocs/Zensical documentation
-/site
+
 
 # mypy
 .mypy_cache/
@@ -218,3 +217,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Secrets for the data services
+.cdsapirc
+*.json.key
+*service-account*.json
+
+# Large data, model weights, video
+data/raw/
+*.tif
+*.nc
+*.h5
+*.keras
+*.pt
+*.ckpt
+*.mp4
+*.mov
