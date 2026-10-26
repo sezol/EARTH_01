@@ -1,7 +1,7 @@
 # EARTH_01
 Deep learning model predicting country-level climate risk vulnerability andusing satellite imagery to track global deforestation patterns .
 
-# [Project Name]
+
 
 A neural network study of deforestation and country-level climate risk, presented as a static website.
 
