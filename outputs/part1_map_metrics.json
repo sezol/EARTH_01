@@ -1,0 +1,97 @@
+{
+  "region": "Madre de Dios, Peru (never seen in training)",
+  "window": [
+    -70.06,
+    -12.9,
+    -69.81,
+    -12.65
+  ],
+  "squares": 1806,
+  "square_size_m": 640,
+  "model": "notebook 02 ResNet-18, unchanged; scaled with training statistics",
+  "check1_reproduces_notebook02": {
+    "max_prob_gap": 4.999944567680298e-05,
+    "same_call_share": 1.0
+  },
+  "rules": "notebook 01 label rules; loss window 2019 to the year before each frame; Hansen v1.11 (to 2023)",
+  "by_year": {
+    "2019": {
+      "squares_mapped": 1552.0,
+      "squares_scored": 617.0,
+      "true_lost": 0.0,
+      "true_stable": 617.0,
+      "caught": 0.0,
+      "false_alarms": 5.0,
+      "network_lost_km2": 108.1344,
+      "hansen_lost_km2": 0.0,
+      "recall_lost": null,
+      "false_alarm_rate": 0.008103727714748784,
+      "balanced_accuracy": null
+    },
+    "2020": {
+      "squares_mapped": 1552.0,
+      "squares_scored": 565.0,
+      "true_lost": 28.0,
+      "true_stable": 537.0,
+      "caught": 28.0,
+      "false_alarms": 4.0,
+      "network_lost_km2": 215.04000000000002,
+      "hansen_lost_km2": 13.641200000000001,
+      "recall_lost": 1.0,
+      "false_alarm_rate": 0.0074487895716946,
+      "balanced_accuracy": 0.9962756052141527
+    },
+    "2021": {
+      "squares_mapped": 1552.0,
+      "squares_scored": 517.0,
+      "true_lost": 75.0,
+      "true_stable": 442.0,
+      "caught": 73.0,
+      "false_alarms": 8.0,
+      "network_lost_km2": 292.86400000000003,
+      "hansen_lost_km2": 30.034200000000002,
+      "recall_lost": 0.9733333333333334,
+      "false_alarm_rate": 0.01809954751131222,
+      "balanced_accuracy": 0.9776168929110105
+    },
+    "2022": {
+      "squares_mapped": 1552.0,
+      "squares_scored": 495.0,
+      "true_lost": 149.0,
+      "true_stable": 346.0,
+      "caught": 146.0,
+      "false_alarms": 6.0,
+      "network_lost_km2": 362.0864,
+      "hansen_lost_km2": 53.10640000000001,
+      "recall_lost": 0.9798657718120806,
+      "false_alarm_rate": 0.017341040462427744,
+      "balanced_accuracy": 0.9812623656748264
+    },
+    "2023": {
+      "squares_mapped": 1552.0,
+      "squares_scored": 531.0,
+      "true_lost": 269.0,
+      "true_stable": 262.0,
+      "caught": 268.0,
+      "false_alarms": 10.0,
+      "network_lost_km2": 423.93600000000004,
+      "hansen_lost_km2": 82.8115,
+      "recall_lost": 0.9962825278810409,
+      "false_alarm_rate": 0.03816793893129771,
+      "balanced_accuracy": 0.9790572944748717
+    },
+    "2024": {
+      "squares_mapped": 1552.0,
+      "squares_scored": 623.0,
+      "true_lost": 361.0,
+      "true_stable": 262.0,
+      "caught": 355.0,
+      "false_alarms": 25.0,
+      "network_lost_km2": 460.3904,
+      "hansen_lost_km2": 110.90110000000001,
+      "recall_lost": 0.9833795013850416,
+      "false_alarm_rate": 0.09541984732824428,
+      "balanced_accuracy": 0.9439798270283987
+    }
+  }
+}

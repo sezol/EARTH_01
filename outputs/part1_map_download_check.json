@@ -1,0 +1,72 @@
+{
+  "window": [
+    -70.06,
+    -12.9,
+    -69.81,
+    -12.65
+  ],
+  "rows": 43,
+  "cols": 42,
+  "check": [
+    {
+      "tile": "m032_024",
+      "year": 2018,
+      "identical_share": 1.0,
+      "max_difference": 0
+    },
+    {
+      "tile": "m032_024",
+      "year": 2024,
+      "identical_share": 1.0,
+      "max_difference": 0
+    },
+    {
+      "tile": "m001_023",
+      "year": 2018,
+      "identical_share": 1.0,
+      "max_difference": 0
+    },
+    {
+      "tile": "m001_023",
+      "year": 2024,
+      "identical_share": 1.0,
+      "max_difference": 0
+    },
+    {
+      "tile": "m016_028",
+      "year": 2018,
+      "identical_share": 1.0,
+      "max_difference": 0
+    },
+    {
+      "tile": "m016_028",
+      "year": 2024,
+      "identical_share": 1.0,
+      "max_difference": 0
+    },
+    {
+      "tile": "m022_014",
+      "year": 2018,
+      "identical_share": 1.0,
+      "max_difference": 0
+    },
+    {
+      "tile": "m022_014",
+      "year": 2024,
+      "identical_share": 1.0,
+      "max_difference": 0
+    },
+    {
+      "tile": "m038_025",
+      "year": 2018,
+      "identical_share": 1.0,
+      "max_difference": 0
+    },
+    {
+      "tile": "m038_025",
+      "year": 2024,
+      "identical_share": 1.0,
+      "max_difference": 0
+    }
+  ]
+}

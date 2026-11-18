@@ -1,0 +1,50 @@
+{
+  "method": "Grad-CAM on layer3 (8x8 cells, about 80 m), explaining the 'lost' score",
+  "test_patches": 1050,
+  "check1_reproduces_notebook02": {
+    "max_prob_gap": 4.999944567680298e-05,
+    "same_call_share": 1.0
+  },
+  "check2_sanity_median_rank_corr_vs_untrained": -0.031255924412433654,
+  "check3_faithfulness": {
+    "patches": 415,
+    "mean_drop_hide_hottest": 2.2913174629211426,
+    "mean_drop_hide_random": 1.1678659915924072,
+    "share_hottest_hurts_more": 0.6578313253012048
+  },
+  "check4_hansen": {
+    "mask_vs_label_corr": 0.999414095662576,
+    "by_country": {
+      "Brazil": {
+        "hit": 0.7754842312043105,
+        "chance": 0.49576241629464285,
+        "times_better_than_chance": 1.5642255356917227
+      },
+      "Democratic Republic of the Congo": {
+        "hit": 0.6694699239875903,
+        "chance": 0.2477515435987903,
+        "times_better_than_chance": 2.702182655506406
+      },
+      "India": {
+        "hit": 0.4695513546611728,
+        "chance": 0.21484665643601192,
+        "times_better_than_chance": 2.1855185575160205
+      },
+      "Indonesia": {
+        "hit": 0.7342037563541433,
+        "chance": 0.5020492553710938,
+        "times_better_than_chance": 1.4624137940637927
+      },
+      "All": {
+        "hit": 0.690970916741078,
+        "chance": 0.4132239300271739,
+        "times_better_than_chance": 1.6721464236004902
+      }
+    }
+  },
+  "passed": {
+    "check2": true,
+    "check3": true,
+    "check4": true
+  }
+}

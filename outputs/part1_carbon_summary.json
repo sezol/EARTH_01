@@ -1,0 +1,367 @@
+{
+  "years": [
+    2019,
+    2022
+  ],
+  "method": "Hansen GFC v1.11 loss (>=30% canopy in 2000) x NASA/ORNL 2010 above+below-ground biomass carbon",
+  "by_country": {
+    "Brazil": {
+      "loss_ha": 12313932.909928793,
+      "carbon_t": 1162584141.719655,
+      "co2_Mt": 4262.808519638736,
+      "carbon_t_per_ha": 94.4120899653641
+    },
+    "Democratic Republic of the Congo": {
+      "loss_ha": 4999051.164436976,
+      "carbon_t": 436058773.24414784,
+      "co2_Mt": 1598.8821685618755,
+      "carbon_t_per_ha": 87.22830771292165
+    },
+    "Indonesia": {
+      "loss_ha": 3846862.477988147,
+      "carbon_t": 407972421.8309267,
+      "co2_Mt": 1495.8988800467312,
+      "carbon_t_per_ha": 106.05328996431666
+    },
+    "India": {
+      "loss_ha": 516126.9173212594,
+      "carbon_t": 37286172.680585526,
+      "co2_Mt": 136.71596649548025,
+      "carbon_t_per_ha": 72.24225559500711
+    }
+  },
+  "by_country_year": [
+    {
+      "country": "Brazil",
+      "year": 2019,
+      "loss_ha": 2702282.4760997794,
+      "carbon_t": 253089241.602127,
+      "co2_Mt": 927.9938858744656,
+      "carbon_t_per_ha": 93.65758163351309
+    },
+    {
+      "country": "Brazil",
+      "year": 2020,
+      "loss_ha": 3297436.715222016,
+      "carbon_t": 302196989.0476298,
+      "co2_Mt": 1108.0556265079758,
+      "carbon_t_per_ha": 91.64603149245971
+    },
+    {
+      "country": "Brazil",
+      "year": 2021,
+      "loss_ha": 2998420.527186433,
+      "carbon_t": 284232721.22301805,
+      "co2_Mt": 1042.1866444843995,
+      "carbon_t_per_ha": 94.79414866790809
+    },
+    {
+      "country": "Brazil",
+      "year": 2022,
+      "loss_ha": 3315793.1914205644,
+      "carbon_t": 323065189.8468803,
+      "co2_Mt": 1184.5723627718944,
+      "carbon_t_per_ha": 97.43224959952087
+    },
+    {
+      "country": "Indonesia",
+      "year": 2019,
+      "loss_ha": 1170615.3599056997,
+      "carbon_t": 124036680.77895677,
+      "co2_Mt": 454.8011628561748,
+      "carbon_t_per_ha": 105.95852833243934
+    },
+    {
+      "country": "Indonesia",
+      "year": 2020,
+      "loss_ha": 956743.825234949,
+      "carbon_t": 101259647.57325314,
+      "co2_Mt": 371.2853744352615,
+      "carbon_t_per_ha": 105.83778531143032
+    },
+    {
+      "country": "Indonesia",
+      "year": 2021,
+      "loss_ha": 837635.6441344181,
+      "carbon_t": 87879261.55287296,
+      "co2_Mt": 322.2239590272008,
+      "carbon_t_per_ha": 104.9134694401456
+    },
+    {
+      "country": "Indonesia",
+      "year": 2022,
+      "loss_ha": 881867.6487130806,
+      "carbon_t": 94796831.92584385,
+      "co2_Mt": 347.58838372809413,
+      "carbon_t_per_ha": 107.4955318569424
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "year": 2019,
+      "loss_ha": 1220432.5271427701,
+      "carbon_t": 104398105.93719576,
+      "co2_Mt": 382.79305510305113,
+      "carbon_t_per_ha": 85.5418907767139
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "year": 2020,
+      "loss_ha": 1310201.3462763105,
+      "carbon_t": 112478448.90329038,
+      "co2_Mt": 412.42097931206473,
+      "carbon_t_per_ha": 85.84821655309887
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "year": 2021,
+      "loss_ha": 1247982.727504334,
+      "carbon_t": 109892000.39453323,
+      "co2_Mt": 402.93733477995517,
+      "carbon_t_per_ha": 88.05570619898792
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "year": 2022,
+      "loss_ha": 1220434.5635135616,
+      "carbon_t": 109290218.00912848,
+      "co2_Mt": 400.73079936680443,
+      "carbon_t_per_ha": 89.55024814643743
+    },
+    {
+      "country": "India",
+      "year": 2019,
+      "loss_ha": 121534.35103555066,
+      "carbon_t": 8635995.604132617,
+      "co2_Mt": 31.66531721515293,
+      "carbon_t_per_ha": 71.05806325987997
+    },
+    {
+      "country": "India",
+      "year": 2020,
+      "loss_ha": 138342.95937224364,
+      "carbon_t": 9970966.530442396,
+      "co2_Mt": 36.56021061162212,
+      "carbon_t_per_ha": 72.0742607768944
+    },
+    {
+      "country": "India",
+      "year": 2021,
+      "loss_ha": 133215.34385655023,
+      "carbon_t": 9822109.11385661,
+      "co2_Mt": 36.0144000841409,
+      "carbon_t_per_ha": 73.73106452687098
+    },
+    {
+      "country": "India",
+      "year": 2022,
+      "loss_ha": 123034.26305691485,
+      "carbon_t": 8857101.432153903,
+      "co2_Mt": 32.47603858456431,
+      "carbon_t_per_ha": 71.98890140104034
+    }
+  ],
+  "cnn_test_patches": {
+    "share_of_lost_carbon_caught": 0.9597926304345393,
+    "by_country": {
+      "Brazil": 0.9794748487075922,
+      "Democratic Republic of the Congo": 0.9626922519620751,
+      "India": 0.7505811763535184,
+      "Indonesia": 0.9719807558658388
+    }
+  },
+  "gfw_check": [
+    {
+      "country": "Brazil",
+      "year": 2019,
+      "loss_ha": 2702282.4760997794,
+      "carbon_t": 253089241.602127,
+      "co2_Mt": 927.9938858744656,
+      "carbon_t_per_ha": 93.65758163351309,
+      "gfw_loss_ha": 2693011.8,
+      "gfw_emissions_MtCO2e": NaN,
+      "loss_diff_%": 0.3442493679299716,
+      "co2_diff_%": NaN
+    },
+    {
+      "country": "Brazil",
+      "year": 2020,
+      "loss_ha": 3297436.715222016,
+      "carbon_t": 302196989.0476298,
+      "co2_Mt": 1108.0556265079758,
+      "carbon_t_per_ha": 91.64603149245971,
+      "gfw_loss_ha": 3286618.5,
+      "gfw_emissions_MtCO2e": NaN,
+      "loss_diff_%": 0.3291594452479342,
+      "co2_diff_%": NaN
+    },
+    {
+      "country": "Brazil",
+      "year": 2021,
+      "loss_ha": 2998420.527186433,
+      "carbon_t": 284232721.22301805,
+      "co2_Mt": 1042.1866444843995,
+      "carbon_t_per_ha": 94.79414866790809,
+      "gfw_loss_ha": 2985832.2,
+      "gfw_emissions_MtCO2e": NaN,
+      "loss_diff_%": 0.421601963647946,
+      "co2_diff_%": NaN
+    },
+    {
+      "country": "Brazil",
+      "year": 2022,
+      "loss_ha": 3315793.1914205644,
+      "carbon_t": 323065189.8468803,
+      "co2_Mt": 1184.5723627718944,
+      "carbon_t_per_ha": 97.43224959952087,
+      "gfw_loss_ha": 3303933.8,
+      "gfw_emissions_MtCO2e": NaN,
+      "loss_diff_%": 0.3589476102870044,
+      "co2_diff_%": NaN
+    },
+    {
+      "country": "Indonesia",
+      "year": 2019,
+      "loss_ha": 1170615.3599056997,
+      "carbon_t": 124036680.77895677,
+      "co2_Mt": 454.8011628561748,
+      "carbon_t_per_ha": 105.95852833243934,
+      "gfw_loss_ha": 1175420.1,
+      "gfw_emissions_MtCO2e": NaN,
+      "loss_diff_%": -0.4087679030076446,
+      "co2_diff_%": NaN
+    },
+    {
+      "country": "Indonesia",
+      "year": 2020,
+      "loss_ha": 956743.825234949,
+      "carbon_t": 101259647.57325314,
+      "co2_Mt": 371.2853744352615,
+      "carbon_t_per_ha": 105.83778531143032,
+      "gfw_loss_ha": 960275.94,
+      "gfw_emissions_MtCO2e": NaN,
+      "loss_diff_%": -0.36782289526601464,
+      "co2_diff_%": NaN
+    },
+    {
+      "country": "Indonesia",
+      "year": 2021,
+      "loss_ha": 837635.6441344181,
+      "carbon_t": 87879261.55287296,
+      "co2_Mt": 322.2239590272008,
+      "carbon_t_per_ha": 104.9134694401456,
+      "gfw_loss_ha": 839695.2,
+      "gfw_emissions_MtCO2e": NaN,
+      "loss_diff_%": -0.24527422159634185,
+      "co2_diff_%": NaN
+    },
+    {
+      "country": "Indonesia",
+      "year": 2022,
+      "loss_ha": 881867.6487130806,
+      "carbon_t": 94796831.92584385,
+      "co2_Mt": 347.58838372809413,
+      "carbon_t_per_ha": 107.4955318569424,
+      "gfw_loss_ha": 883724.9,
+      "gfw_emissions_MtCO2e": NaN,
+      "loss_diff_%": -0.2101617015566113,
+      "co2_diff_%": NaN
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "year": 2019,
+      "loss_ha": 1220432.5271427701,
+      "carbon_t": 104398105.93719576,
+      "co2_Mt": 382.79305510305113,
+      "carbon_t_per_ha": 85.5418907767139,
+      "gfw_loss_ha": 1218961.5,
+      "gfw_emissions_MtCO2e": NaN,
+      "loss_diff_%": 0.12067872059701006,
+      "co2_diff_%": NaN
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "year": 2020,
+      "loss_ha": 1310201.3462763105,
+      "carbon_t": 112478448.90329038,
+      "co2_Mt": 412.42097931206473,
+      "carbon_t_per_ha": 85.84821655309887,
+      "gfw_loss_ha": 1308350.9,
+      "gfw_emissions_MtCO2e": NaN,
+      "loss_diff_%": 0.14143348518433385,
+      "co2_diff_%": NaN
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "year": 2021,
+      "loss_ha": 1247982.727504334,
+      "carbon_t": 109892000.39453323,
+      "co2_Mt": 402.93733477995517,
+      "carbon_t_per_ha": 88.05570619898792,
+      "gfw_loss_ha": 1246458.8,
+      "gfw_emissions_MtCO2e": NaN,
+      "loss_diff_%": 0.1222605596216979,
+      "co2_diff_%": NaN
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "year": 2022,
+      "loss_ha": 1220434.5635135616,
+      "carbon_t": 109290218.00912848,
+      "co2_Mt": 400.73079936680443,
+      "carbon_t_per_ha": 89.55024814643743,
+      "gfw_loss_ha": 1218625.0,
+      "gfw_emissions_MtCO2e": NaN,
+      "loss_diff_%": 0.14849223621389826,
+      "co2_diff_%": NaN
+    },
+    {
+      "country": "India",
+      "year": 2019,
+      "loss_ha": 121534.35103555066,
+      "carbon_t": 8635995.604132617,
+      "co2_Mt": 31.66531721515293,
+      "carbon_t_per_ha": 71.05806325987997,
+      "gfw_loss_ha": 115594.78,
+      "gfw_emissions_MtCO2e": NaN,
+      "loss_diff_%": 5.138269250177785,
+      "co2_diff_%": NaN
+    },
+    {
+      "country": "India",
+      "year": 2020,
+      "loss_ha": 138342.95937224364,
+      "carbon_t": 9970966.530442396,
+      "co2_Mt": 36.56021061162212,
+      "carbon_t_per_ha": 72.0742607768944,
+      "gfw_loss_ha": 130585.58,
+      "gfw_emissions_MtCO2e": NaN,
+      "loss_diff_%": 5.940456344600713,
+      "co2_diff_%": NaN
+    },
+    {
+      "country": "India",
+      "year": 2021,
+      "loss_ha": 133215.34385655023,
+      "carbon_t": 9822109.11385661,
+      "co2_Mt": 36.0144000841409,
+      "carbon_t_per_ha": 73.73106452687098,
+      "gfw_loss_ha": 125523.445,
+      "gfw_emissions_MtCO2e": NaN,
+      "loss_diff_%": 6.12785831089182,
+      "co2_diff_%": NaN
+    },
+    {
+      "country": "India",
+      "year": 2022,
+      "loss_ha": 123034.26305691485,
+      "carbon_t": 8857101.432153903,
+      "co2_Mt": 32.47603858456431,
+      "carbon_t_per_ha": 71.98890140104034,
+      "gfw_loss_ha": 113976.68,
+      "gfw_emissions_MtCO2e": NaN,
+      "loss_diff_%": 7.946873919221768,
+      "co2_diff_%": NaN
+    }
+  ],
+  "tiles_failed": 0
+}

@@ -1,0 +1,81 @@
+{
+  "countries_never_seen": [
+    "Myanmar",
+    "Peru"
+  ],
+  "model": "notebook 02 ResNet-18, unchanged; scaled with training statistics",
+  "check1_reproduces_notebook02": {
+    "max_prob_gap": 4.999944567680298e-05,
+    "same_call_share": 1.0
+  },
+  "by_country": {
+    "Myanmar": {
+      "patches": 461.0,
+      "accuracy": 0.9370932754880694,
+      "balanced_accuracy": 0.9364549763033175,
+      "bal_acc_95%_low": 0.9132310594951379,
+      "bal_acc_95%_high": 0.957254122280873,
+      "precision_lost": 0.9333333333333333,
+      "recall_lost": 0.9289099526066351,
+      "confusion_matrix": [
+        [
+          236,
+          14
+        ],
+        [
+          15,
+          196
+        ]
+      ]
+    },
+    "Peru": {
+      "patches": 500.0,
+      "accuracy": 0.936,
+      "balanced_accuracy": 0.9359999999999999,
+      "bal_acc_95%_low": 0.9140546303373277,
+      "bal_acc_95%_high": 0.955129147374998,
+      "precision_lost": 0.9037037037037037,
+      "recall_lost": 0.976,
+      "confusion_matrix": [
+        [
+          224,
+          26
+        ],
+        [
+          6,
+          244
+        ]
+      ]
+    },
+    "Both": {
+      "patches": 961.0,
+      "accuracy": 0.9365244536940687,
+      "balanced_accuracy": 0.9372234273318872,
+      "bal_acc_95%_low": 0.9219690170721145,
+      "bal_acc_95%_high": 0.9517572542869885,
+      "precision_lost": 0.9166666666666666,
+      "recall_lost": 0.9544468546637744,
+      "confusion_matrix": [
+        [
+          460,
+          40
+        ],
+        [
+          21,
+          440
+        ]
+      ]
+    }
+  },
+  "baseline_balanced_accuracy": {
+    "Myanmar": 0.9132796208530806,
+    "Peru": 0.8160000000000001,
+    "Both": 0.8622169197396963
+  },
+  "own_test_areas_balanced_accuracy": {
+    "Brazil": 0.9543519394512772,
+    "Democratic Republic of the Congo": 0.962277454609554,
+    "India": 0.8401360544217686,
+    "Indonesia": 0.9558544303797468
+  }
+}
