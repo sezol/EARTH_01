@@ -1,0 +1,128 @@
+{
+  "model": "ResNet-18, ImageNet-pretrained, 12-band input (Sentinel-2 2018 and 2023)",
+  "split": "1-degree map blocks, per country, 70/15/15",
+  "test_patches": 1050,
+  "accuracy": 0.9419047619047619,
+  "balanced_accuracy": 0.9375276344878408,
+  "precision_lost": 0.962877030162413,
+  "recall_lost": 0.9021739130434783,
+  "f1_lost": 0.9315375982042648,
+  "precision_stable": 0.9273021001615509,
+  "recall_stable": 0.9728813559322034,
+  "confusion_matrix": {
+    "rows_true_cols_predicted": [
+      "stable",
+      "lost"
+    ],
+    "values": [
+      [
+        574,
+        16
+      ],
+      [
+        45,
+        415
+      ]
+    ]
+  },
+  "epochs_trained": 11,
+  "best_validation_balanced_accuracy": 0.9601005965610012,
+  "per_country": {
+    "Brazil": {
+      "test_patches": 305,
+      "accuracy": 0.9540983606557377,
+      "balanced_accuracy": 0.9543519394512772,
+      "recall_lost": 0.9285714285714286
+    },
+    "Democratic Republic of the Congo": {
+      "test_patches": 245,
+      "accuracy": 0.9755102040816327,
+      "balanced_accuracy": 0.962277454609554,
+      "recall_lost": 0.9354838709677419
+    },
+    "India": {
+      "test_patches": 182,
+      "accuracy": 0.8516483516483516,
+      "balanced_accuracy": 0.8401360544217686,
+      "recall_lost": 0.6904761904761905
+    },
+    "Indonesia": {
+      "test_patches": 318,
+      "accuracy": 0.9559748427672956,
+      "balanced_accuracy": 0.9558544303797468,
+      "recall_lost": 0.975
+    }
+  },
+  "baseline": {
+    "model": "logistic regression on greenness (NDVI) change and band averages",
+    "accuracy": 0.8904761904761904,
+    "balanced_accuracy": 0.8814664701547532,
+    "confusion_matrix": [
+      [
+        563,
+        27
+      ],
+      [
+        88,
+        372
+      ]
+    ]
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.3007738547320158,
+      "val_balanced_accuracy": 0.8867235934027371
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.14704364789770796,
+      "val_balanced_accuracy": 0.9509650251491402
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.11114342986210379,
+      "val_balanced_accuracy": 0.9463095098841969
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.10410042326199323,
+      "val_balanced_accuracy": 0.9341560416422974
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.09609030238274961,
+      "val_balanced_accuracy": 0.9535384255468475
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.08703457667787796,
+      "val_balanced_accuracy": 0.9601005965610012
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.07008437602391988,
+      "val_balanced_accuracy": 0.9564861387296759
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.07282200597351027,
+      "val_balanced_accuracy": 0.9572230670253831
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.06309070440911185,
+      "val_balanced_accuracy": 0.9457714352555855
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.05210528738713773,
+      "val_balanced_accuracy": 0.9401099543806293
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.05306466222362306,
+      "val_balanced_accuracy": 0.9574921043396889
+    }
+  ]
+}

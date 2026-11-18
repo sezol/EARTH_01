@@ -238,3 +238,5 @@ data/raw/
 *.ckpt
 *.mp4
 *.mov
+data/raw/
+data/raw/

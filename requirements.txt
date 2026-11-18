@@ -1,0 +1,10 @@
+earthengine-api>=1.0
+numpy
+pandas
+pyproj
+tqdm
+matplotlib
+scikit-learn
+torch
+torchvision
+jupyter
